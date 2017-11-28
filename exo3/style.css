@@ -1,7 +1,112 @@
 * {
 	box-sizing: border-box;
+	font-size: 18px;
+}
+body{
+	background-color: #b7b7b7;
+	width: 100%;
 }
 table, td, tr{
-	border: 2px solid black;
-	border-collapse: collapse;
+	
+}
+h1{
+	text-transform: uppercase;
+	color: #4392CD;
+}
+.sheet{
+	background-color: #f1f1f1;
+	width: 90%;
+	height: 1200px;
+	margin: 30px auto 0 auto;
+	padding: 15px;
+}
+.resume{
+	width: 100%;
+	height: 200px;
+}
+#resume{
+	width: 100%;
+	height: 100%;
+}
+#resume th, #resume td{
+	vertical-align: top;
+	text-align: justify;
+}
+.work{
+	float: left;
+	height: 800px;
+	width: 45%;
+	margin: 50px 0 0 0;
+}
+.work th{
+	text-align: center;
+	vertical-align: top;
+	width: 30%;
+}
+.work td{
+	text-align: left;
+	vertical-align: top;
+}
+.work td p{
+	padding-bottom: 5px;
+}
+.work h1, .work h2, .work p{
+	margin: 0;
+	padding: 0;
+}
+#work{
+	height: 60%;
+	width: 100%;
+	margin-bottom: 160px;
+}
+#education{
+	height: 30%;
+}
+.play{
+	height: 800px;
+	width: 45%;
+	margin: 20px 0 0 0;
+	float: right;
+}
+progress{
+	width: 100%;
+	appearance: none;
+	border: none;
+}
+.play table{
+	margin-bottom: 50px;
+}
+.play caption{
+	color: #4392CD;
+	text-align: left;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.play tr, .play td{
+	padding: 0px;
+}
+.space_under >td{
+	padding-bottom: 50px;
+}
+#good_level{
+	text-align: left;
+}
+#average_level{
+	text-align: center;
+}
+#skilled_level{
+	text-align: right;
+}
+#skills{
+	height: 50%;
+	width: 100%;
+}
+#personal_skills{
+	height: 15%;
+	width: 100%;
+}
+#work_play{
+	height: 25%;
+	width: 100%;
 }
